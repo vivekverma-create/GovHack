@@ -6,16 +6,18 @@
 # import DataChecker
 import trafficVolume
 import parking
+import carbon_rewards
+import pedestrian
 import streamlit as st
 
 st.sidebar.title('Navigation')
 PAGES = {
-    # "NBA": app2_test,
-    # "SP500": sp500_app,
-    # "Covid-19": ComingSoon,
     "Traffic Volume":trafficVolume,
-    "Parking":parking
-    # "Data Analysis":DataChecker
+    "Parking":parking,
+    "Pedestrian":pedestrian,
+    "Green Rewards":carbon_rewards,
+
+
 }
 selection = st.sidebar.radio("Go to", list(PAGES.keys()))
 page = PAGES[selection]

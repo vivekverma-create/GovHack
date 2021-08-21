@@ -24,4 +24,9 @@ def app():
     st.dataframe(df[filtered])
     image=("./parking.png")
     st.image(image, caption='Parking occupancy Inner Melbourne', use_column_width=True)
+    image1=("./without_parkapp.JPG")
+    st.image(image1, caption='Finding parking in normal scenario', use_column_width=True)
+    image2=("./with_parkapp.JPG")
+    st.image(image2, caption='Travelling to destination by knowing parking location and avaliability', use_column_width=True)
+
 
