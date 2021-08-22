@@ -41,7 +41,6 @@ any advise for common problems or issues.
 
 ## Authors
 
-* Contributors names and contact info
 * Praveen- praveenpl@gmail.com
 * Thiru- thiruu.gunasekaran@gmail.com
 * Antony- antonyjjoseph@gmail.com
