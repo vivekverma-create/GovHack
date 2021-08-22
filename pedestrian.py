@@ -10,7 +10,7 @@ def app():
     This app visualise pedestrian density across Melbourne city using [open data](https://data.melbourne.vic.gov.au/widgets/b2ak-trbp)!
     """)
     st.markdown("""
-    daily pedestrian density can be visualised [here](http://www.pedestrian.melbourne.vic.gov.au/#date=06-08-2021&time=22).
+    Daily pedestrian density can be visualised [here](http://www.pedestrian.melbourne.vic.gov.au/#date=06-08-2021&time=22).
     """)
     st.write('Data Dimension: ' + str(df.shape[0]) + ' rows and ' + str(df.shape[1]) + ' columns.')
 #     st.write(df)

@@ -28,5 +28,12 @@ def app():
     st.image(image1, caption='Finding parking in normal scenario', use_column_width=True)
     image2=("./with_parkapp.JPG")
     st.image(image2, caption='Travelling to destination by knowing parking location and avaliability', use_column_width=True)
+    image3=("./Destination1.PNG")
+    st.image(image3, caption='Start to destination', use_column_width=True)
+    image4=("./Destination.PNG")
+    st.image(image4, caption='Start to destination with parking', use_column_width=True)
+    st.markdown("""
+    This can be integrated with Park and ride
+    """)
 
 
