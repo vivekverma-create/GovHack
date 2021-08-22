@@ -19,7 +19,8 @@ streamlit run app.py
 
 ## Help
 
-Any advise for common problems or issues.
+Please contact authors for
+any advise for common problems or issues.
 
 
 ## Authors
