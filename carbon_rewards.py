@@ -9,6 +9,8 @@ def app():
     This page shows simple visualisation of reduced carbon in Melbourne Region!
     """)
 
+    image4=("./reduced_emissions.JPG")
+    st.image(image4, caption='Carbon emission footprint', use_column_width=True)
     image=("./carbon_emission_vehicle.JPG")
     st.image(image, caption='Carbon emission footprint', use_column_width=True)
     image1=("./passenger_kilometer.JPG")
